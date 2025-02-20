@@ -132,18 +132,16 @@ button:disabled {
     }
 
     .container__conteudo {
-        display: flex;
+        display: block;
         position: inherit;
         flex-direction: column-reverse;
         
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 2rem
     } 
-    .container__conteudo__imagem{
-        width: 50%;
-    }
+    
 
     
     
