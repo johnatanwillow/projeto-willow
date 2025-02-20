@@ -19,7 +19,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: right;
     content: "";
-    display: block;
+    display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -117,7 +117,15 @@ button:disabled {
     h1 {
         font-size: 50px;
     }
-
+    .body::before {
+        background-position: center;
+        content: "";
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
     .container__botao {
         font-size: 16px;
     }
@@ -128,21 +136,21 @@ button:disabled {
     }
 
     .container__imagem-pessoa {
-        display: block;
+        display: flex;
     }
 
     .container__conteudo {
-        display: block;
+        display: flex;
         position: inherit;
         flex-direction: column-reverse;
         
     }
 
     .container__informacoes {
-        padding: 2rem
+        padding: 1rem;
     } 
-    
-
-    
-    
+    .container__conteudo__imagem{
+        width: 60%;
+    }
+       
 }
