@@ -89,10 +89,12 @@ body::before {
     display: flex;
     gap: 2em;
 }
-
+.container__conteudo__imagem{
+    width: 45%;
+}
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-size: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -102,7 +104,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 32px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -111,7 +113,7 @@ button:disabled {
 }
 
 @media screen and (max-width: 1250px) {
-
+    
     h1 {
         font-size: 50px;
     }
@@ -130,13 +132,18 @@ button:disabled {
     }
 
     .container__conteudo {
-        display: block;
+        display: flex;
         position: inherit;
+        flex-direction: column-reverse;
+        
     }
 
     .container__informacoes {
         padding: 1rem
     } 
+    .container__conteudo__imagem{
+        width: 50%;
+    }
 
     
     
