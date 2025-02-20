@@ -117,14 +117,17 @@ button:disabled {
     h1 {
         font-size: 50px;
     }
-
+    .container {
+        display: block;
+        position: inherit;
+    }
     .container__botao {
-        font-size: 16px;
+        font-size: 1.5rem;
     }
 
 
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 2rem;
     }
 
     .container__imagem-pessoa {
@@ -135,11 +138,13 @@ button:disabled {
         display: flex;
         position: inherit;
         flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
         
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 1.5rem
     } 
     .container__conteudo__imagem{
         width: 80%;
