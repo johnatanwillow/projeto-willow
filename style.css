@@ -19,7 +19,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: right;
     content: "";
-    display: block;
+    display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -117,10 +117,14 @@ button:disabled {
     h1 {
         font-size: 50px;
     }
+<<<<<<< HEAD
     .container {
         display: block;
         position: inherit;
     }
+=======
+   
+>>>>>>> parent of 0173c95 (atualização final)
     .container__botao {
         font-size: 1.5rem;
     }
@@ -131,7 +135,7 @@ button:disabled {
     }
 
     .container__imagem-pessoa {
-        display: block;
+        display: flex;
     }
 
     .container__conteudo {
@@ -144,11 +148,14 @@ button:disabled {
     }
 
     .container__informacoes {
+<<<<<<< HEAD
         padding: 1.5rem
+=======
+        padding: 1rem;
+>>>>>>> parent of 0173c95 (atualização final)
     } 
     .container__conteudo__imagem{
-        width: 80%;
-        align-content: center;
+        width: 60%;
     }
-    
+       
 }
