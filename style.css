@@ -133,10 +133,12 @@ button:disabled {
 
     .container__conteudo {
         display: flex;
-        position: inherit;
+        width: 100%;
+        height: 100%;
         flex-direction: column-reverse;
         align-content: center;
         justify-content: center;
+        
         
     }
 
