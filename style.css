@@ -132,7 +132,6 @@ button:disabled {
 
     .container__conteudo {
         display: flex;
-        position: inherit;
         flex-direction: column-reverse;
         align-content: center;
         justify-content: center;
