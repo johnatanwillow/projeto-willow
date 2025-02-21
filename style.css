@@ -117,14 +117,7 @@ button:disabled {
     h1 {
         font-size: 50px;
     }
-<<<<<<< HEAD
-    .container {
-        display: block;
-        position: inherit;
-    }
-=======
    
->>>>>>> parent of 0173c95 (atualização final)
     .container__botao {
         font-size: 1.5rem;
     }
@@ -148,11 +141,7 @@ button:disabled {
     }
 
     .container__informacoes {
-<<<<<<< HEAD
         padding: 1.5rem
-=======
-        padding: 1rem;
->>>>>>> parent of 0173c95 (atualização final)
     } 
     .container__conteudo__imagem{
         width: 60%;
